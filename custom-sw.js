@@ -1,4 +1,4 @@
-importScripts("/react-chat-ui/precache-manifest.db38a13d8572cdefe035897bf66242fd.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("/react-chat-ui/precache-manifest.4cb14704f783eca60b5234951a77bc79.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 if (workbox) {
   console.log(`Yay! Workbox is loaded 🎉`);
