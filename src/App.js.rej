@@ -1,0 +1,19 @@
+diff a/src/App.js b/src/App.js	(rejected hunks)
+@@ -4,12 +4,14 @@
+ 
+ import Spin from "antd/es/spin";
+ import "./App.css";
+-import {useLocation, useHistory} from "react-router-dom";
++import {useRouteMatch, useLocation, useHistory} from "react-router-dom";
++import DaakListClassic from "./components/DaakListContainer/DaakListClassic";
++import DaakListComfort from "./components/DaakListContainer/DaakListComfort/index";
+ 
+-const PageLayout = lazy(() => import("./components/Pages"));
++const PageLayout = lazy(() => import("./components/pages"));
+ const DaakListContainer = lazy(() => import("./components/DaakListContainer"));
+ const NothiListContainer = lazy(() =>
+-  import("./components/NothiListContainer")
++  import("./components/NoteContainerLayout")
+ );
+ const DaakDetails = lazy(() => import("./components/DaakDetails/index"));
+ const LoginContainer = lazy(() => import("./components/LoginPage"));

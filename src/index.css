@@ -1,0 +1,131 @@
+@import url("https://fonts.maateen.me/solaiman-lipi/font.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+html,
+body {
+  height: 100% !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  font-family: "SolaimanLipi", sans-serif;
+  font-size: 13px;
+  font-weight: 300 !important;
+  padding: 0 !important;
+  color: #000 !important;
+  background: #fff !important;
+}
+
+a {
+  text-decoration: none;
+}
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+:root {
+  --main-red: #c60b1e;
+  --main-light-gray: #fafafa;
+  --main-orange: #ff7400;
+  --orange-border: #ff740080;
+}
+.bg-fff {
+  background: #fff;
+}
+.fr-box {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.fr-wrapper {
+  flex: 1;
+}
+
+.fr-element {
+  min-height: 100%;
+}
+
+.btn-violate {
+  background-color: #683392;
+  color: #fff;
+}
+
+.btn-violate:hover {
+  color: #fff;
+  background-color: #8c47c3;
+  border-color: #8c47c3;
+}
+
+.bg-light-n {
+  background: #fafafa;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.full_screen {
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #fff;
+  z-index: 99999;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-14 {
+  font-size: 14px !important;
+}
+.font-13 {
+  font-size: 13px !important;
+}
+.font-12 {
+  font-size: 12px !important;
+}
+.font-violate {
+  color: #683392;
+}
+.font-weight-1 {
+  text-shadow: 0 0 1px;
+}
+.ant-table-tbody tr:nth-child(odd) {
+  background: #f5f8f7;
+}
+.btn.btn-outline-secondary {
+  color: #494988;
+  border-color: #d9d9d9;
+}
+.btn-outline-secondary.active,
+.btn-outline-secondary:active,
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: #e1e1ef !important;
+  border-color: #d9d9d9 !important;
+  color: #494988 !important;
+  box-shadow: none;
+}
+.btn-pink,
+.btn-outline-pink:hover,
+.btn-outline-pink:active,
+.btn-outline-pink:focus {
+  background-color: #fd397a !important;
+  color: white !important;
+}
+.btn-pink:hover,
+.btn-pink:active,
+.btn-outline-pink {
+  background-color: #fd397a20 !important;
+  color: #fd397a !important;
+  border-color: #fd397a80 !important;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+  border-top: 1.5pt solid #683392 !important;
+}
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  padding: 0 8px !important;
+  line-height: 32px !important;
+}
+.anticon {
+  vertical-align: 0 !important;
+}
